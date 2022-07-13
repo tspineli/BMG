@@ -1,0 +1,99 @@
+/* this file is loaded by index.html and styles the page */
+
+#navbar  {
+  background-color: #fff !important;
+}
+
+.nav-link{
+  color: #FA6300!important;
+}
+
+#navbar{
+  padding-left: 73px;
+}
+
+.nav-item{
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align:center!important;
+}
+
+ul.navbar-nav.mr-auto{
+  padding-left:20px!important;
+}
+
+.navbar.navbar-dark .breadcrumb .nav-item.active>.nav-link, .navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link{
+  border-bottom:3px solid #FA6300;
+  background-color: rgba(255,255,255,0)!important;
+}
+
+#fotoagradecimento{
+  padding-left:15%;
+  padding-top:20%;
+}
+
+#conteudofim{
+    padding-top:10%;
+}
+
+#logo {
+  width: 200px;
+  height: 78px;
+  background: url("https://www.bancobmg.com.br/lumis-theme/br/com/bmg/portal/theme/bmg-portal/img/logo.svg") no-repeat 0px -15px;
+}
+
+body {
+  background-color: #462A71!important;
+  }
+
+main{
+  background: url("https://www.bancobmg.com.br/data/files/F7/D3/D1/88/05093710C0CE8337970BE9C2/1920x526_Emprestimo-Home.jpg") no-repeat -500px;
+  background-size: cover;
+}
+
+
+
+@font-face {
+  font-family: 'futura-lt-bold';
+  src: url(/LTe50154.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'futura-lt-book';
+  src: url(LTe50152.woff) format('woff');
+}
+
+#titulo{
+  color:white;
+  font-family: 'futura-lt-book';
+  font-size: 4.609rem;
+}
+
+#strong{
+  font-family: 'futura-lt-bold';
+}
+
+#descricao{
+  width: 500px;
+  background-image: url('https://www.caixa.gov.br/Style%20Library/images/gr_trianguloTitulo.png');
+  background-position: top left;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: 'futura-lt-book';
+  font-size: 26px;
+  margin-top: 0;
+  padding-top: 10%;
+}
+
+#botao{
+  padding-top: 5%;
+}
+
+#botaoenvio,#botaosend {
+  background-color: #fff !important;
+  color: #FA6300!important;
+}
+
+#form1{
+  font-family: 'futura-lt-book';
+}
